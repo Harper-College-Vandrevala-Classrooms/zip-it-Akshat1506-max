@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.ZipperTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-10-19T20:21:43" hostname="Akshats-MacBook-Air.local" time="0.01">
+  <properties/>
+  <testcase name="testZipBothEmptyLists()" classname="com.csc.ZipperTest" time="0.006"/>
+  <testcase name="testZipEqualLengthLists()" classname="com.csc.ZipperTest" time="0.001"/>
+  <testcase name="testZipSecondListLonger()" classname="com.csc.ZipperTest" time="0.001"/>
+  <testcase name="testZipFirstListLonger()" classname="com.csc.ZipperTest" time="0.001"/>
+  <testcase name="testZipEmptyFirstList()" classname="com.csc.ZipperTest" time="0.0"/>
+  <testcase name="testZipEmptySecondList()" classname="com.csc.ZipperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
