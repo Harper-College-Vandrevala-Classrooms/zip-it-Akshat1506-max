@@ -1,6 +1,7 @@
 package com.csc;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Zipper {
@@ -26,5 +27,19 @@ public class Zipper {
         }
 
         return mergedList;
+    }
+
+    // Add-on: Method to create a HashMap from two lists (one for keys, one for values)
+    public <K, V> HashMap<K, V> hashmapify(List<K> keys, List<V> values) {
+        if (keys.size() != values.size()) {
+            throw new IllegalArgumentException("The lists must have the same size.");
+        }
+
+        HashMap<K, V> map = new HashMap<>();
+        for (int i = 0; i < keys.size(); i++) {
+            map.put(keys.get(i), values.get(i));
+        }
+
+        return map;
     }
 }
